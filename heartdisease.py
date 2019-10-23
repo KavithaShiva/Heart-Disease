@@ -5,7 +5,7 @@
 
 import pandas as pd
 #import seaborn as sns
-data=pd.read_excel("HearDisease.xlsx")
+data=pd.read_excel("HeartDisease.xlsx")
 print(data.columns)
 
 data.columns = [i.replace(" ","") for i in data.columns]
